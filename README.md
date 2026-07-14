@@ -1,36 +1,39 @@
 # 📈 Stock Trading Platform
 
-A professional Java console-based Stock Trading Platform developed as part of the **CodeAlpha Java Programming Internship**. The application simulates a real-world stock trading environment where users can buy and sell stocks, manage their portfolio, track transactions, and save data using file handling.
+A professional Java console-based **Stock Trading Platform** developed as part of the **CodeAlpha Java Programming Internship**. The application simulates a real-world stock trading environment where users can view market data, buy and sell stocks, manage their portfolio, and track transaction history with persistent file storage.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- View available stocks with current prices
-- Buy and sell stocks
-- Portfolio management
-- Transaction history
-- Profit/Loss tracking
-- File handling for persistent data
-- Professional console interface
-- Modular architecture using Object-Oriented Programming (OOP)
+- 📊 View available stocks with current prices
+- 💰 Buy stocks
+- 💸 Sell stocks
+- 📁 Portfolio management
+- 📈 Profit/Loss calculation
+- 📝 Transaction history
+- 💾 Persistent data using file handling
+- 🛡 Input validation
+- 📋 Professional console tables
+- 🏗 Modular architecture using OOP principles
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - Java
 - Object-Oriented Programming (OOP)
-- Collections Framework
-- File Handling (BufferedReader & BufferedWriter)
-- Java Time API
+- Java Collections Framework
+- File Handling
+- Exception Handling
 - VS Code
+- Git & GitHub
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 StockTradingPlatform
 │
 ├── src
@@ -41,16 +44,22 @@ StockTradingPlatform
 │   └── Main.java
 │
 ├── data
+│   ├── market.txt
 │   ├── portfolio.txt
-│   ├── transactions.txt
-│   └── market.txt
+│   └── transactions.txt
+│
+├── docs
+│   ├── screenshots
+│   └── diagrams
 │
 └── README.md
 ```
 
 ---
 
-## 📋 Modules
+## 🏛 Project Architecture
+
+The project follows a modular architecture with clear separation of responsibilities.
 
 ### Model
 - Stock
@@ -70,60 +79,127 @@ StockTradingPlatform
 - TablePrinter
 - ColorConsole
 
-### Utils
+### Utilities
 - Constants
 - InputValidator
 
 ---
 
-## 🚀 How to Run
+# 📸 Screenshots
+
+## 🏠 Main Menu
+
+![Main Menu](docs/screenshots/main-menu.png)
+
+---
+
+## 📊 Market View
+
+![Market View](docs/screenshots/market-view.png)
+
+---
+
+## 💰 Buy Stock
+
+![Buy Stock](docs/screenshots/buy-stock.png)
+
+---
+
+## 💸 Sell Stock
+
+![Sell Stock](docs/screenshots/sell-stock.png)
+
+---
+
+## 📁 Portfolio
+
+![Portfolio](docs/screenshots/portfolio.png)
+
+---
+
+## 📝 Transactions
+
+![Transactions](docs/screenshots/transactions.png)
+
+---
+
+# ▶️ How to Run
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/CodeAlpha_StockTradingPlatform.git
+git clone https://github.com/lavanyagodugu/CodeAlpha_StockTradingPlatform.git
 ```
 
 2. Open the project in VS Code.
 
-3. Compile and run `Main.java`.
+3. Compile the project.
 
-4. Start trading stocks through the console interface.
+4. Run `Main.java`.
 
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-- Main Menu
-- Market View
-- Portfolio View
-- Transaction History
+5. Start trading stocks using the console menu.
 
 ---
 
-## 🔮 Future Enhancements
+# 💻 Sample Workflow
 
-- Real-time stock price API integration
-- User authentication
-- Database integration (MySQL)
-- JavaFX GUI
-- Portfolio analytics and charts
-- Multi-user support
+- View available stocks
+- Buy shares
+- Sell shares
+- Check portfolio
+- View transaction history
+- Save portfolio data
+- Exit application
 
 ---
 
-## 👩‍💻 Author
+# 📚 OOP Concepts Used
+
+- Classes & Objects
+- Encapsulation
+- Constructors
+- Abstraction
+- Modular Design
+- Collections Framework
+- Exception Handling
+- File Handling
+
+---
+
+# 📈 Future Enhancements
+
+- 📡 Live Stock Market API Integration
+- 🗄 Database Support (MySQL)
+- 👥 Multiple User Accounts
+- 🔐 Login Authentication
+- 📉 Portfolio Analytics & Charts
+- 🌐 JavaFX or Web-based GUI
+
+---
+
+# 🎯 Learning Outcomes
+
+This project helped strengthen my understanding of:
+
+- Java Programming
+- Object-Oriented Design
+- Clean Code Practices
+- Collections Framework
+- File Handling
+- Console UI Design
+- Modular Project Structure
+- Software Development Workflow
+
+---
+
+# 👩‍💻 Author
 
 **Lavanya Godugu**
 
-Java Developer | B.Tech (Information Technology)
+B.Tech Information Technology
 
 GitHub: https://github.com/lavanyagodugu
 
 ---
 
-## 📄 License
-
-This project was developed for educational purposes as part of the CodeAlpha Java Programming Internship.
+## ⭐ If you like this project, consider giving it a Star!
